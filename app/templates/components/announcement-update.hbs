@@ -1,0 +1,30 @@
+{{#if updateAnnouncementForm}}
+<h4>Update {{announcement.type}} Announcement</h4>
+<div>
+  <form>
+    <div class="form-group">
+      <label for="head">head</label>
+      {{input value=head id="head" placeholder=announcement.head}}
+    </div>
+
+    <div class="form-group">
+      <label for="body">body</label>
+      {{input value=body id="body" placeholder=announcement.body}}
+    </div>
+
+    <div class="form-group">
+      <label for="link">link url</label>
+      {{input value=link id="link" placeholder=announcement.link}}
+    </div>
+
+    <div class="form-group">
+      <label for="type">Type of Announcement</label>
+      {{input value=type id="type" placeholder=announcement.type}}
+    </div>
+
+    <button {{action 'update' announcement}}>Save</button>
+  </form>
+</div>
+{{else}}
+  <button {{action 'updateAnnouncementForm'}}>Update</button>
+{{/if}}

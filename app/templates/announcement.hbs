@@ -1,6 +1,6 @@
 
-  {{#each model as |announcement|}}
-    {{announcement-tile announcement=announcement}}
+  {{#each model.announcements as |announcement|}}
+    {{announcement-tile announcement=model}}
   {{/each}}
 
-  {{announcement-update announcement=model update="update"}}
+  {{announcement-update announcement=model updateAnn="updateAnn"}}

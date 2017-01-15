@@ -14,7 +14,7 @@ export default Ember.Component.extend({
         link: this.get('link')
       };
       this.set('updateAnnouncementForm', false);
-      this.sendAction('update', announcement, params);
+      this.sendAction('updateAnn', announcement, params);
     }
   }
 });

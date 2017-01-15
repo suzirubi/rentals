@@ -4,7 +4,11 @@ import Ember from 'ember';
 export default Ember.Route.extend({
   updateAnnouncementForm: false,
   model() {
-    return this.store.findAll("announcement");
+    return Ember.RSVP.hash({
+      rentals: this.store.findAll('rental'),
+      reviews: this.store.findAll('review'),
+      announcements: this.store.findAll('announcement')
+    });
   },
   actions: {
     update(announcement, params){

@@ -1,52 +1,51 @@
-{
-  "rentals" : {
-    "0" : {
+{ "rentals": [{
       "bedrooms" : "100",
       "city" : "Amsterdam",
       "image" : "",
       "owner" : "Shirley Wonka",
       "type" : "Flat"
-    },
-    "2" : {
+    }, {
       "bedrooms" : "3",
       "city" : "Portland",
       "image" : "",
       "owner" : "Suzi",
       "type" : "house"
-    },
-    "-Ka40s1D01CVdLh-FOpb" : {
+    }, {
       "bedrooms" : "wer",
       "city" : "wer",
       "image" : "wer",
       "owner" : "er",
       "type" : "wer"
-    },
-    "-Ka4U_xZ_C7zqQGcTk3i" : {
+    }, {
       "bedrooms" : "Bedrrooms Test",
       "city" : "Chicago",
       "image" : "URl Test",
       "owner" : "No one",
       "type" : "Type Test"
-    }
-  },
-  "announcements" : {
-    "0" : {
+  }],
+  "announcements": [{
       "type": "add type of announcement here",
       "head": "New listings in Chicago",
       "body": "Check out this great listings",
       "link": "link url"
-    },
-    "1" : {
+    }, {
       "type": "add type of announcement here",
       "head": "New listings in Chicago",
       "body": "Check out this great listings",
       "link": "link url"
-    },
-    "2" : {
+    }, {
       "type": "add type of announcement here",
       "head": "New listings in Chicago",
       "body": "Check out this great listings",
       "link": "link url"
-    }
-  }
+    }],
+  "reviews:": [{
+    "author": "Andrea",
+    "rating": 4,
+    "content": "Did not fall down."
+  }, {
+    "author": "Alex",
+    "rating": 9,
+    "content": "Nice view of the volcano!"
+    }]
 }
